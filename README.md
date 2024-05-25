@@ -16,6 +16,7 @@
 
 - https://www.youtube.com/watch?v=v6TPcU23wP8 (Very Good)
 	- https://next-auth.js.org/providers/credentials
+	- https://nextjs.org/docs/messages/middleware-upgrade-guide#breaking-changes
 - https://www.youtube.com/watch?v=n5dsBONfwjE 
 - https://blog.logrocket.com/using-supertokens-authentication-next-js
 
