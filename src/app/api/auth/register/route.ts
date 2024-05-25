@@ -1,5 +1,5 @@
 import {NextResponse} from 'next/server';
-import db from "../../../_utils/db.ts";
+import { initializeDatabase } from "../../../_utils/db.ts";
 
 export async function POST(request: Request) {
 	try {
@@ -9,6 +9,7 @@ export async function POST(request: Request) {
 
 		console.log({email, password});
 
+		const db = await initializeDatabase();
 		const [results, columns] = await db.execute("INSERT INTO users (email, password) VALUES (?,?)", [email, password]);
 
 		console.dir(results);

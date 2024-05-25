@@ -1,6 +1,6 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import db from "../../../_utils/db.ts";
+import { initializeDatabase } from "../../../_utils/db.ts";
 
 const handler = NextAuth({
 	session: {
@@ -16,6 +16,7 @@ const handler = NextAuth({
 	    },
 	    async authorize(credentials, req) {
 			try {
+				const db = await initializeDatabase();
 				const [results, columns] = await db.execute("SELECT * FROM users WHERE email = ?", [credentials?.email]);
 
 				const user = results[0];
