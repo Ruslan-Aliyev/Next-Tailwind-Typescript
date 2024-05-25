@@ -72,7 +72,7 @@ Next 13 added the new **App Router** on top of its pre existing **Page Router**
 
 ### SSR, SSG & ISR
 
-In App Router
+**In App Router**
 
 ```
 fetch (URL), {
@@ -87,7 +87,7 @@ fetch (URL), {
 - Next's `fetch`: https://nextjs.org/docs/app/api-reference/functions/fetch 
 	- Note: Next's `fetch` have an extra options field called `next`, in which you can specify ISR revalidation time
 
-In Page Router
+**In Page Router**
 
 - SSR: `getServerSideProps`
 - SSG: `getStaticProps` & `getStaticPaths`
@@ -110,6 +110,10 @@ https://nextjs.org/docs/pages/building-your-application/configuring/typescript#s
 
 # Todo
 
+- Full CRUD
+- Contact form with email
 - https://blog.logrocket.com/implementing-service-workers-next-js
 - https://www.pronextjs.dev/next-js-file-uploads-server-side-solutions
 - Multilingual
+- Bread crumbs
+- Pagination, sort, search
