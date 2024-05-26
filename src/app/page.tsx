@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default async function Home() {
-  const response = await fetch('https://jsonplaceholder.typicode.com/photos', {cache: "force-cache"});
+  const response = await fetch('https://jsonplaceholder.typicode.com/photos?_start=0&_limit=5', {cache: "force-cache"});
   const entries = await response.json();
 
   return (
