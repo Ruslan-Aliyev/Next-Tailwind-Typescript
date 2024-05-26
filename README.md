@@ -20,6 +20,10 @@
 - https://www.youtube.com/watch?v=n5dsBONfwjE 
 - https://blog.logrocket.com/using-supertokens-authentication-next-js
 
+## File upload
+
+- Both Form-Action and API-Route-Handler methods are taught: https://www.pronextjs.dev/next-js-file-uploads-server-side-solutions
+
 ## Server vs Client sides
 
 - CSR: 
@@ -113,7 +117,6 @@ https://nextjs.org/docs/pages/building-your-application/configuring/typescript#s
 - Full CRUD
 - Contact form with email
 - https://blog.logrocket.com/implementing-service-workers-next-js
-- https://www.pronextjs.dev/next-js-file-uploads-server-side-solutions
 - Multilingual
 - Bread crumbs
 - Pagination, sort, search
