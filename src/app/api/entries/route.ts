@@ -2,10 +2,6 @@ export async function GET() {
 	return Response.json({a: "b"});
 }
 
-// export async function GET(request: Request, { params }: {params: { entryId: string }} /*This is the context*/) {
-// 	return Response.json(`Get one: ${entryId}`);
-// }
-
 export async function POST(request: Request) {
 	const entry = await request.json();
 
