@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Modal from "../../../../_components/Modal";
+import Modal from "../../../_components/Modal";
 
 export default async function Entry({
   params: { entryId },

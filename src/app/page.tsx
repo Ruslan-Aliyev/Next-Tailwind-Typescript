@@ -5,7 +5,7 @@ import UploadForm from "./_components/UploadForm";
 export default async function Home() {
   const response = await fetch(`${process.env.BASE_URL}/api/entries`);
   const entries = await response.json();
-  //@Todo: Check if entries.status fail
+  //@Todo: Check if entries);
 
   return (
     <main className="container mx-auto">
