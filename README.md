@@ -115,7 +115,7 @@ https://nextjs.org/docs/pages/building-your-application/configuring/typescript#s
 # Todo
 
 - Full CRUD
-- Contact form with email
+- Contact form with email: https://www.freecodecamp.org/news/how-to-build-a-working-contact-form-with-sendgrid-and-next-js/
 - https://blog.logrocket.com/implementing-service-workers-next-js
 - Multilingual
 - Bread crumbs

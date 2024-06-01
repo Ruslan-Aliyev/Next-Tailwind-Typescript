@@ -4,7 +4,7 @@ import {signOut} from 'next-auth/react';
 
 export default function Logout() {
 	return (
-		<span onClick={() => {
+		<span  className="text-gray-900 dark:text-white hover:underline hover:cursor-pointer" onClick={() => {
 			signOut();
 		}}>
 			Logout
