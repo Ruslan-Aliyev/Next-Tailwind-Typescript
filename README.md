@@ -10,7 +10,9 @@
 - Next 12: https://www.youtube.com/playlist?list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw
 - Next 14: https://www.youtube.com/playlist?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI
 - TypeScript: https://www.freecodecamp.org/news/learn-typescript-beginners-guide
-- Tailwind: https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw
+- Tailwind: 
+	- https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw
+	- https://flowbite.com/docs/getting-started/introduction/
 
 ## Auth
 
